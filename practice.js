@@ -35,9 +35,12 @@ var devMountainGoal = null;
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
+
+
 function greeting(name){
-return 'Hello, ' + name + '!';
+return 'Hello, ' + name ;
 }
+
 
 //////////////////PROBLEM 7////////////////////
 
@@ -46,7 +49,7 @@ return 'Hello, ' + name + '!';
 
 
 var newGreeting = function(name){
-  return 'Hello, ' + name + '!';
+  return 'Hello, ' + name ;
 }
 
 //////////////////PROBLEM 8////////////////////
@@ -67,7 +70,7 @@ var dog = {
   name: 'Olive',
   color: 'Salt and Pepper',
   age: 5,
- goodGirl:true,
+ goodBoy:true,
 }
 
 
@@ -132,8 +135,8 @@ function faveColorFinder(color){
   else if(color==='black'){
     return 'so trendy'
   }
-  else{
-    return 'You need to evaluate your favorite color choice'
+  else {
+    return 'you need to evaluate your favorite color choice'
   }
 }
 
@@ -162,13 +165,13 @@ function pond() {
 let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["rubberDuck"];
+let bathroomScope = ["rubberDuck", "duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["sailorDuck", "rubberDuck"];
+let bathtubScope = ["sailorDuck", "rubberDuck", "duck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["realDuck"];
+let pondScope = ["realDuck", "duck"];
 
 //////////////////PROBLEM 14////////////////////
 
